@@ -1,0 +1,67 @@
+# Source provenance and publication changes
+
+Source ZIP: `prototype-engines.zip` supplied in this conversation. Original ZIP is retained by the owner and is **not embedded** in this upload package.
+
+This publication pack includes **28** Markdown source records from the archive; directory layout retained.
+
+**Single redaction:** Replaced a hard-coded personal macOS path in `recursion/recursive-gatekeeper/gatekeeper_py.md` with `/PATH/TO/LOCAL/VAULT/ledger/gatekeeper.jsonl`. This is a publication-only privacy treatment, not a functional repair or tested edit. No other Markdown source record was edited.
+
+**Excluded:** Finder/.DS_Store, `__MACOSX` metadata, and AppleDouble files.
+
+## Original and published file hashes
+
+`coherence-engine/coherence_engine.md`  original `d2171626c29456e2ddd4490a7fdad68299e02084bbb035d05e0760ef7d5679e3`  published `d2171626c29456e2ddd4490a7fdad68299e02084bbb035d05e0760ef7d5679e3`
+
+`coherence-engine/coherence_engine_py.md`  original `8c600febf9e1f5dba28d3133db9de1f972ed68a45a5a34d276618cc8124e9c80`  published `8c600febf9e1f5dba28d3133db9de1f972ed68a45a5a34d276618cc8124e9c80`
+
+`coherence-engine/test_coherence_py.md`  original `98e048450428d183be2b082a19abb2fc8875649719682164cd157d6b62dc9b03`  published `98e048450428d183be2b082a19abb2fc8875649719682164cd157d6b62dc9b03`
+
+`cycle-detector/cycle_detector.md`  original `ea311c97a111e76b4e50d7349f981eb244b7b3859d486b4491d6622dd7857fa2`  published `ea311c97a111e76b4e50d7349f981eb244b7b3859d486b4491d6622dd7857fa2`
+
+`cycle-detector/cycle_detector_py.md`  original `f35fe8eb8380acea693363f9a7890eaa1130e419476309702be3a1c322868fd5`  published `f35fe8eb8380acea693363f9a7890eaa1130e419476309702be3a1c322868fd5`
+
+`cycle-detector/test_cycle_detector_py.md`  original `8843d38f1aafd5c3bc74ab8ae262a22f6ec08dbed4bb7e3327fa175678da5051`  published `8843d38f1aafd5c3bc74ab8ae262a22f6ec08dbed4bb7e3327fa175678da5051`
+
+`math-engine/math_engine.md`  original `14a75c21dfaa94ec268e79dfa92f36263764cda79fab9300a6ea1f951401e052`  published `14a75c21dfaa94ec268e79dfa92f36263764cda79fab9300a6ea1f951401e052`
+
+`math-engine/math_engine_py.md`  original `2ccbe941516cd5a9285bab0e5ffdf04e35f920990da7ea7d1933a97aa6aec72f`  published `2ccbe941516cd5a9285bab0e5ffdf04e35f920990da7ea7d1933a97aa6aec72f`
+
+`math-engine/test_math_engine_py.md`  original `fef7dfe7f5b92c32fcb8dd25c4021e43692ca4855695287857de9f5799805e11`  published `fef7dfe7f5b92c32fcb8dd25c4021e43692ca4855695287857de9f5799805e11`
+
+`memory-engine/memory_engine.md`  original `f2aea605071844728480487faa4b1d11e3676850ee6755cdea3c2f8228c7ccee`  published `f2aea605071844728480487faa4b1d11e3676850ee6755cdea3c2f8228c7ccee`
+
+`memory-engine/memory_engine_py.md`  original `971c9e86ee8015e8d5b67ca8d800ea479552ff27ce728c328d7a07c51b7d7640`  published `971c9e86ee8015e8d5b67ca8d800ea479552ff27ce728c328d7a07c51b7d7640`
+
+`memory-engine/memory_exceptions_py.md`  original `f4a482a6fdd1402d0ca684b861da17dcd5d1807424c69938f73a02f976eafaa9`  published `f4a482a6fdd1402d0ca684b861da17dcd5d1807424c69938f73a02f976eafaa9`
+
+`memory-engine/memory_health_py.md`  original `66eb52dfa431d0d06daf375721e29fc562a7be656f9a9c3b4f56f239938b6850`  published `66eb52dfa431d0d06daf375721e29fc562a7be656f9a9c3b4f56f239938b6850`
+
+`memory-engine/memory_models_py.md`  original `26d3e09afdd71add65b670f73bc61fd8adbef80345551a00aa93d79b8d35d3b6`  published `26d3e09afdd71add65b670f73bc61fd8adbef80345551a00aa93d79b8d35d3b6`
+
+`memory-engine/memory_policies_py.md`  original `27bfc6b628a16c00391f2af3a67dd346b2f323a999b484a033b341a32049ccc6`  published `27bfc6b628a16c00391f2af3a67dd346b2f323a999b484a033b341a32049ccc6`
+
+`memory-engine/memory_repository_py.md`  original `701211ad5d8ad23342e62013fd0bacfd42a30f201226afe68f671265693550a2`  published `701211ad5d8ad23342e62013fd0bacfd42a30f201226afe68f671265693550a2`
+
+`memory-engine/memory_schema_sql.md`  original `6bae52448c11076073a3f8f19a6cf4a7c4bea5f7fa6aa6cc6de8353352b167ef`  published `6bae52448c11076073a3f8f19a6cf4a7c4bea5f7fa6aa6cc6de8353352b167ef`
+
+`memory-engine/test_memory_py.md`  original `73f569c7bdae3284573fa88c66a20a5d7308c0cb04e647fd687b777d776ebb81`  published `73f569c7bdae3284573fa88c66a20a5d7308c0cb04e647fd687b777d776ebb81`
+
+`recursion/recursive-gatekeeper/gatekeeper_architecture.md`  original `fa9a3a4f49b5895c1b84600929f56bdc32aec067f1ee432af078c5148e075cae`  published `fa9a3a4f49b5895c1b84600929f56bdc32aec067f1ee432af078c5148e075cae`
+
+`recursion/recursive-gatekeeper/gatekeeper_py.md`  original `ae0a1eaf0189ca468a76d9a3ae18d77dd19d267a8f0fbfc46186cb2ad1c1c740`  published `66f86d09065374077bc878783f15e5a19ef40927a168c9cb2f80478cd754f9d4` [PUBLISHING REDACTION]
+
+`recursion/recursive-reasoner/recursive_reasoner.md`  original `611bf7b8c5d1f82b1438467d1a9fed706d029189c22f482d55d30267292849d1`  published `611bf7b8c5d1f82b1438467d1a9fed706d029189c22f482d55d30267292849d1`
+
+`recursion/recursive-reasoner/recursive_reasoner_py.md`  original `d8a40a98fd3e6fec67e29d88390da74892469436e0b91868bea975519ac5b7bf`  published `d8a40a98fd3e6fec67e29d88390da74892469436e0b91868bea975519ac5b7bf`
+
+`repair-engine/repair_engine.md`  original `360e637542ca70f255228b649c6646978da07fa3aaaae890f5c5cd9bb41c6e9e`  published `360e637542ca70f255228b649c6646978da07fa3aaaae890f5c5cd9bb41c6e9e`
+
+`repair-engine/repair_engine_py.md`  original `2f3e1b7776c89869cf6091d20d9c05a335ca2c3b15a718ccc6443fe26b75ce4d`  published `2f3e1b7776c89869cf6091d20d9c05a335ca2c3b15a718ccc6443fe26b75ce4d`
+
+`repair-engine/test_repair_engine_py.md`  original `c593ce1dfba9284752b3130972cd12e56cedd834a398489c8a070e95fcf5ad17`  published `c593ce1dfba9284752b3130972cd12e56cedd834a398489c8a070e95fcf5ad17`
+
+`task-guard/task_guard.md`  original `ecc98d46139066c32c1771cffa2e5ae1cee6aba5c86a3969218a4e8470787e8f`  published `ecc98d46139066c32c1771cffa2e5ae1cee6aba5c86a3969218a4e8470787e8f`
+
+`task-guard/task_guard_py.md`  original `043774c6ab8c4f6e725e107193b63f259b183e6bac52e6f34a4fb7d624999f70`  published `043774c6ab8c4f6e725e107193b63f259b183e6bac52e6f34a4fb7d624999f70`
+
+`task-guard/test_task_guard_py.md`  original `f37b4e587b92d49966acdd3e4ccdd736f1a04a9a8cf83ac3a9d11747ab0cc45f`  published `f37b4e587b92d49966acdd3e4ccdd736f1a04a9a8cf83ac3a9d11747ab0cc45f`
