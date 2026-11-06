@@ -1,0 +1,4 @@
+**Historical status:** First-year longitudinal synthesis.  
+**Observation horizon:** approximately first 12 months of the research program.  
+**Preservation status:** Historical artifact; superseded as the primary longitudinal account by the subsequent two-year study, _What Remains_.  
+**Relationship to later work:** The two-year study overlaps the observation period represented here but reconstructs the broader longitudinal record using evidence and architectural history unavailable at the time this document was produced. This artifact is preserved in its historical form and should not be interpreted as representing the final terminology, architecture, or evidentiary conclusions of the two-year study.

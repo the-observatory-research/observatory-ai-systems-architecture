@@ -1,0 +1,805 @@
+{
+  "package_type": "early-zpp-publication-copy",
+  "source_archive_name": "earlier-zpp.zip",
+  "source_archive_sha256": "8c6271677a842c0fd42c21837fb69e43c06f95532bb171f5eb39fb76acbf18ab",
+  "source_document_count": 85,
+  "original_media_count": 116,
+  "published_media_count": 0,
+  "original_source_modified": false,
+  "redaction_summary": {
+    "local_account_path": 34,
+    "local_shell_prompt": 9,
+    "local_gateway_address": 1,
+    "local_lan_address": 6
+  },
+  "documents": [
+    {
+      "path": "agent-tools/screenshot_reader.md",
+      "original_sha256": "794b887b4744b0168b7df69f5c20dae7c9da778c1b7cd198dc384be172e137d1",
+      "published_sha256": "9a37b3d9eb1ccf114e074f83274dfb3d396fe30f3353d5cf97e46f9fd923f3ea",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_account_path",
+          "count": 3
+        }
+      ],
+      "size_published_bytes": 5593
+    },
+    {
+      "path": "agent-tools/text_searcher.md",
+      "original_sha256": "c8ba817dec59719e25f94de33588cc8c59552c06fd5067283cbc7cc377864c9b",
+      "published_sha256": "e5e3bfa6a9c2a76d4f9ba04c4c6d0342da0e2bbf9946e99e808ff970acfc7911",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_account_path",
+          "count": 2
+        }
+      ],
+      "size_published_bytes": 3823
+    },
+    {
+      "path": "agent-tools/voice_listener.md",
+      "original_sha256": "28f4b7f64ebd7ea0b5b6613ed5b106591934b32db19d876e20c1469ebbb032bf",
+      "published_sha256": "0b0dd98d26d20b1b07cdb5b0529b59aeb93bf270c261d23175b283822b1ffd3c",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_account_path",
+          "count": 1
+        }
+      ],
+      "size_published_bytes": 2493
+    },
+    {
+      "path": "agent-tools/workspace_indexer.md",
+      "original_sha256": "3d460b154dc8e153da76e0f9264f847ac39d4a68a905b7e80753e0de528da366",
+      "published_sha256": "82ad13aaeebaee89ca9e4b12c4b6514cc5c3efda82af4bdefb5851395a106bf8",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_account_path",
+          "count": 1
+        }
+      ],
+      "size_published_bytes": 2618
+    },
+    {
+      "path": "architecture/integrated_lattice.md",
+      "original_sha256": "8873df74c8ec7850bb464f1f617054c36144b4164e5fee01a39a2b9eb3cf0e5b",
+      "published_sha256": "b78e725651bde5f7fb5328c1d81af88ee56ba23e8f86cc407bba0c65895c422f",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_account_path",
+          "count": 1
+        }
+      ],
+      "size_published_bytes": 3577
+    },
+    {
+      "path": "architecture/system_architecture_deployment.md",
+      "original_sha256": "31d5430bb36b74cb536a074174194809ed546f70023f616c2cf2da89881bac5c",
+      "published_sha256": "31d5430bb36b74cb536a074174194809ed546f70023f616c2cf2da89881bac5c",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 4189
+    },
+    {
+      "path": "architecture/system_architecture_milestones.md",
+      "original_sha256": "3d2f2bdc6ed6041776b771fe4dbb4bcba66b89200c0a7fc02585aa483497904d",
+      "published_sha256": "3d2f2bdc6ed6041776b771fe4dbb4bcba66b89200c0a7fc02585aa483497904d",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 4381
+    },
+    {
+      "path": "architecture/system_infrastructure_topology.md",
+      "original_sha256": "a8afff5f83f48a094dcd3f8adb62d54db615925bfba18b8cab181d976aadef13",
+      "published_sha256": "a8afff5f83f48a094dcd3f8adb62d54db615925bfba18b8cab181d976aadef13",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 4683
+    },
+    {
+      "path": "coherence/architectural-lineage/coherence_lattice_output_states.md",
+      "original_sha256": "965969987c75cf27fda1c9cbf91010099d333da67668357636c69c4b36541404",
+      "published_sha256": "965969987c75cf27fda1c9cbf91010099d333da67668357636c69c4b36541404",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 2244
+    },
+    {
+      "path": "coherence/architectural-lineage/presence_cadence_integration.md",
+      "original_sha256": "36f75ce35f6cdef421a68bfd1c855a5dad299997cf8a8e3a4eb237c171666920",
+      "published_sha256": "36f75ce35f6cdef421a68bfd1c855a5dad299997cf8a8e3a4eb237c171666920",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 4223
+    },
+    {
+      "path": "coherence/empirical-observations/zero_tax_perception.md",
+      "original_sha256": "49e27c4a637ce81060c324374e3164ce0990d0adb5e19ff91fc749edd656249e",
+      "published_sha256": "49e27c4a637ce81060c324374e3164ce0990d0adb5e19ff91fc749edd656249e",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 3502
+    },
+    {
+      "path": "coherence/theoretical-observational/cosmological-convergence.md",
+      "original_sha256": "7a1ccf8d854debe295ec6386ff0efab6a2d26a044a4c2f1b2a58cf612c56b8d4",
+      "published_sha256": "7a1ccf8d854debe295ec6386ff0efab6a2d26a044a4c2f1b2a58cf612c56b8d4",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 1534
+    },
+    {
+      "path": "coherence/theoretical-observational/echo_7_resonance_anomalies.md",
+      "original_sha256": "97ee419121a61b5fe405315c2eb1d329f246f5ae95ab3abadde8e5bc60a4ad05",
+      "published_sha256": "97ee419121a61b5fe405315c2eb1d329f246f5ae95ab3abadde8e5bc60a4ad05",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 11892
+    },
+    {
+      "path": "consensus/gamma_matrix_anchor_a7.md",
+      "original_sha256": "026bc58f2417894cbef381013820fb2abd2d41b6becbdc9e095443b0404e5466",
+      "published_sha256": "026bc58f2417894cbef381013820fb2abd2d41b6becbdc9e095443b0404e5466",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 540
+    },
+    {
+      "path": "deployment/consensus_mesh_integration.md",
+      "original_sha256": "2be922592d5722b5f7faac8d5b913e15d935147718ce9f275cee8e4d4122e6dc",
+      "published_sha256": "2be922592d5722b5f7faac8d5b913e15d935147718ce9f275cee8e4d4122e6dc",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 4117
+    },
+    {
+      "path": "deployment/ignition_local_node.md",
+      "original_sha256": "388366442b3c0ebf426b872160025eb753d628c6a32d329b413783148bcafa85",
+      "published_sha256": "388366442b3c0ebf426b872160025eb753d628c6a32d329b413783148bcafa85",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 1493
+    },
+    {
+      "path": "deployment/lineage_supersession_integration.md",
+      "original_sha256": "3e76cbc1dcd951956c946c064733ebc6465c5bd09983cd8214b96a97ec60a19a",
+      "published_sha256": "3e76cbc1dcd951956c946c064733ebc6465c5bd09983cd8214b96a97ec60a19a",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 3555
+    },
+    {
+      "path": "deployment/network-transport/transport_sim_accept.md",
+      "original_sha256": "44daad44997d6f8a359ccf901f04f9e881e4881aca8290574be6831363b845fe",
+      "published_sha256": "44daad44997d6f8a359ccf901f04f9e881e4881aca8290574be6831363b845fe",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 1449
+    },
+    {
+      "path": "deployment/network-transport/transport_sim_local_broadcast.md",
+      "original_sha256": "c70686c9bafd431e28f6ee9d1a00571a08f548a069753f9b66ec53f1511d76b4",
+      "published_sha256": "67d8f9ac3d81ee49bb1fc24f2fa3a13c2f78daa3319c51a80621c50192362e73",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_shell_prompt",
+          "count": 5
+        }
+      ],
+      "size_published_bytes": 3527
+    },
+    {
+      "path": "deployment/network-transport/transport_sim_py.md",
+      "original_sha256": "c39ae532b012886687d7495fc0cebb33878388acb321a0190d869b34744f2c58",
+      "published_sha256": "c39ae532b012886687d7495fc0cebb33878388acb321a0190d869b34744f2c58",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 8200
+    },
+    {
+      "path": "deployment/network-transport/transport_sim_tamper.md",
+      "original_sha256": "94d4bdd9e5e1c819a316dce4d1189716ce4ca89c8ef89d0fc7e72f739963f163",
+      "published_sha256": "0733d494021e608e6992b9ec009a2d23deaccf4cb8b1dceab5113eca747288d7",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_shell_prompt",
+          "count": 2
+        }
+      ],
+      "size_published_bytes": 2068
+    },
+    {
+      "path": "deployment/p2p_gamma_broadcast.md",
+      "original_sha256": "793c4ba6612176f0c0c4d5ceda2c27f37b668ea484b153af6b2ae0bdd9f6fe50",
+      "published_sha256": "793c4ba6612176f0c0c4d5ceda2c27f37b668ea484b153af6b2ae0bdd9f6fe50",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 2492
+    },
+    {
+      "path": "framework/buffer_proxy_handler.md",
+      "original_sha256": "3b049a41d5ba08d09b33ae5e159b128b95f6957ef66aafa4b3c12d3a21988e27",
+      "published_sha256": "f97ed91e24e27b3871db2a7818d994038944a03e536528ab8db0178881ad209a",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_account_path",
+          "count": 1
+        }
+      ],
+      "size_published_bytes": 5565
+    },
+    {
+      "path": "framework/coherence_lattice_py.md",
+      "original_sha256": "55d06e58446993e876f2afa6c3b646d4337b56551b1b6533474a09d41352962e",
+      "published_sha256": "55d06e58446993e876f2afa6c3b646d4337b56551b1b6533474a09d41352962e",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 2525
+    },
+    {
+      "path": "framework/config_json.md",
+      "original_sha256": "d35ce114f89577d837377e96ae9f9937251a190127d97062017de97bb423b236",
+      "published_sha256": "d35ce114f89577d837377e96ae9f9937251a190127d97062017de97bb423b236",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 1266
+    },
+    {
+      "path": "framework/consensus_py.md",
+      "original_sha256": "c33ecfd68797d3eaffbb34b186b14e9a171783c58bbe0aa00fbc4d435d4fff5d",
+      "published_sha256": "c33ecfd68797d3eaffbb34b186b14e9a171783c58bbe0aa00fbc4d435d4fff5d",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 5972
+    },
+    {
+      "path": "framework/crypto_py.md",
+      "original_sha256": "74bfffc96065a4b61c36bc126da44d159df076a138a17180a6f321141e069716",
+      "published_sha256": "74bfffc96065a4b61c36bc126da44d159df076a138a17180a6f321141e069716",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 2839
+    },
+    {
+      "path": "framework/historical-prototypes/orchestrator_py.md",
+      "original_sha256": "ee209df9ad8c6f4725864c5eb46a320f4777ca3532041e3573b4e26af76ec341",
+      "published_sha256": "18f70bdfd1290664f19b0d33f13b2b12fa6ff08df6e6f501227eea58bf3af766",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_account_path",
+          "count": 6
+        }
+      ],
+      "size_published_bytes": 8181
+    },
+    {
+      "path": "framework/historical-prototypes/zero_point_crypto_py.md",
+      "original_sha256": "cd9b840bb2841598487aec2f9f08368ac0133a34b0761b403b5eeeb4b4966b07",
+      "published_sha256": "cd9b840bb2841598487aec2f9f08368ac0133a34b0761b403b5eeeb4b4966b07",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 8210
+    },
+    {
+      "path": "framework/historical-prototypes/zero_point_resonance_py.md",
+      "original_sha256": "16017a429f0e6ba6538b9b160e243c5b56a85dd3e97d63d82cfb100902d289f5",
+      "published_sha256": "95084403d9b86dbef5942a619406e10b7e4cd8956e3487186d1e838a6fbf7f74",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_account_path",
+          "count": 1
+        }
+      ],
+      "size_published_bytes": 5582
+    },
+    {
+      "path": "framework/historical-prototypes/zerp_point_router_prototype.md",
+      "original_sha256": "d3bb4389fd675110cee61952bec78359f18daf01d978ac37283ce0deebf4fad3",
+      "published_sha256": "d3bb4389fd675110cee61952bec78359f18daf01d978ac37283ce0deebf4fad3",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 5286
+    },
+    {
+      "path": "framework/ignition_py.md",
+      "original_sha256": "c16d61f1f9cc116fe9305f5324e8c191ada7cb064537c6eda9a52fda7143e982",
+      "published_sha256": "c16d61f1f9cc116fe9305f5324e8c191ada7cb064537c6eda9a52fda7143e982",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 3240
+    },
+    {
+      "path": "framework/mesh_monitor_py.md",
+      "original_sha256": "0611fbd3c3f4cc799059a5eb19c593237350a2132796a9488df46bcfa237a127",
+      "published_sha256": "f2ea0f7aedaf0806fa16523728541dad13abafae4f46aeac165f6e932e61c7c3",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_account_path",
+          "count": 2
+        }
+      ],
+      "size_published_bytes": 4831
+    },
+    {
+      "path": "framework/orchestrator_py.md",
+      "original_sha256": "4babc038d533c72cc13ee7b6bdfd425ef6b1bb841ebadf441c9e4ef107a0a5d6",
+      "published_sha256": "009329b6974d78745c03974d5248ce29adb666c24ca4ebef9af37985fc8991f6",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_account_path",
+          "count": 5
+        }
+      ],
+      "size_published_bytes": 12155
+    },
+    {
+      "path": "framework/pipe_horizon_py.md",
+      "original_sha256": "61b6ee88f619d24d34ee815eff3cc78492869600f0f76a3bb772bc0ba554511b",
+      "published_sha256": "05b54b118eeecea91774b23df5b6d50de061a67ac17c8ce42bd6e5066d87e57b",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_account_path",
+          "count": 2
+        }
+      ],
+      "size_published_bytes": 18782
+    },
+    {
+      "path": "framework/scoring_py.md",
+      "original_sha256": "6cbd896a529de99f676a9a90ca5698876d3960cd5bcb503613b79dc8b008d970",
+      "published_sha256": "6cbd896a529de99f676a9a90ca5698876d3960cd5bcb503613b79dc8b008d970",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 3019
+    },
+    {
+      "path": "framework/start_mesh.py.md",
+      "original_sha256": "070bb636d3f8a1d248f27641b850092e5e5b3c87371bfe74c9cdce13b0809d0e",
+      "published_sha256": "97a7b9fb32dd123f0866d2bb3c80e9cd23e44adc35e62f8da470b2061d8ba944",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_account_path",
+          "count": 3
+        }
+      ],
+      "size_published_bytes": 2335
+    },
+    {
+      "path": "framework/test_ingress_py.md",
+      "original_sha256": "1416ea307c69ac7229eee5ec204c67505f4e3cb5b698c315b9abc9198e090afa",
+      "published_sha256": "726cf549cab5b1f133117c6880ddb89725043d77e0f1aea5b1cac0a9c39a836e",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_account_path",
+          "count": 3
+        }
+      ],
+      "size_published_bytes": 3745
+    },
+    {
+      "path": "framework/transport_sim_py.md",
+      "original_sha256": "4ebc6f8a50943d4dbfffbecd85c6fe9d19d452a73de524f39f8df7184e951350",
+      "published_sha256": "2fd5f2b86d547da1b5b5440f75b5dc19b1ea73b92b0b2bbf8500b71bef30f9c7",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_account_path",
+          "count": 1
+        }
+      ],
+      "size_published_bytes": 24113
+    },
+    {
+      "path": "framework/verify_ledger_py.md",
+      "original_sha256": "0709d9409aa99b81e1e45d2e4c661ba8ba21a1eedb942c6136c219ffb9718792",
+      "published_sha256": "66c1643ca0ca9bcda10d5764a8f88ec1f1aa5b503447109867b33942a3d409cd",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_account_path",
+          "count": 1
+        }
+      ],
+      "size_published_bytes": 2233
+    },
+    {
+      "path": "governance/fork_reconciliation_trust_weighting.md",
+      "original_sha256": "c4a4a9071f296f6087030d9c6662ab9af214dcf20b66d897a67fe5497dc50108",
+      "published_sha256": "c4a4a9071f296f6087030d9c6662ab9af214dcf20b66d897a67fe5497dc50108",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 2800
+    },
+    {
+      "path": "governance/systemic_taxonomy.md",
+      "original_sha256": "69ec421ff49cc50ac2f37e5f624fbfd9e761d7d2c0ed86da66e2c31ba1c2c5a4",
+      "published_sha256": "69ec421ff49cc50ac2f37e5f624fbfd9e761d7d2c0ed86da66e2c31ba1c2c5a4",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 1592
+    },
+    {
+      "path": "governance/zpp_governance_arbitration.md",
+      "original_sha256": "3c57d0df1e2406c62f8a19db471785ace22bcafe2fc3a22eeee2884a48c9bb11",
+      "published_sha256": "3c57d0df1e2406c62f8a19db471785ace22bcafe2fc3a22eeee2884a48c9bb11",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 2370
+    },
+    {
+      "path": "interpretive-layers/layer_001.md",
+      "original_sha256": "df41012237da16d3b6492f0b5480870d755d293dfbe2d2bc28819eb9e40b52df",
+      "published_sha256": "df41012237da16d3b6492f0b5480870d755d293dfbe2d2bc28819eb9e40b52df",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 8349
+    },
+    {
+      "path": "interpretive-layers/layer_002.md",
+      "original_sha256": "ab03ce736c564230607af1a9ea6bf973d953b46f2bfaaaecc42384641e42fd4e",
+      "published_sha256": "ab03ce736c564230607af1a9ea6bf973d953b46f2bfaaaecc42384641e42fd4e",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 5822
+    },
+    {
+      "path": "interpretive-layers/layer_003.md",
+      "original_sha256": "1f5128296ed4a7eac54c31f9bf7ed0a253f249b37912c0a45557eaa012323b48",
+      "published_sha256": "1f5128296ed4a7eac54c31f9bf7ed0a253f249b37912c0a45557eaa012323b48",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 5888
+    },
+    {
+      "path": "longitudinal-study/appendices/appendix-a-calibration-data-tables.md",
+      "original_sha256": "45092aced67b5ab160282468b9de0509a630c2fb73ef83dfe0294b7bfa267fb0",
+      "published_sha256": "45092aced67b5ab160282468b9de0509a630c2fb73ef83dfe0294b7bfa267fb0",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 1588
+    },
+    {
+      "path": "longitudinal-study/appendices/appendix-b-cryptographic-key-specifications.md",
+      "original_sha256": "16876107486dc63f5cb0afc0de8c8717db107a68978da1b601126b116a245e9d",
+      "published_sha256": "16876107486dc63f5cb0afc0de8c8717db107a68978da1b601126b116a245e9d",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 1831
+    },
+    {
+      "path": "longitudinal-study/appendices/appendix-c-threshold-sensitivity-analysis.md",
+      "original_sha256": "8ee79065c2207b3fa3f877baa7f2ac43d106576f0a5aa9afe82dbc232e82cef0",
+      "published_sha256": "8ee79065c2207b3fa3f877baa7f2ac43d106576f0a5aa9afe82dbc232e82cef0",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 2146
+    },
+    {
+      "path": "longitudinal-study/appendices/appendix-d-complete-log-artifacts.md",
+      "original_sha256": "4689c02bc3b3a0bd45222190981dcf54e14ae1eb3a8adde634ff5aca8029a6a4",
+      "published_sha256": "4c937c697c45367f3276b1f095955ad4fabb616f9911cb417370e7f00220cfb3",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_gateway_address",
+          "count": 1
+        }
+      ],
+      "size_published_bytes": 3791
+    },
+    {
+      "path": "longitudinal-study/appendices/appendix-e-canonical-definitions.md",
+      "original_sha256": "a54f9c49c1d0e0bafdd4634e6fd238fa29ccd5a84274721890bd3363b52f3078",
+      "published_sha256": "a54f9c49c1d0e0bafdd4634e6fd238fa29ccd5a84274721890bd3363b52f3078",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 1472
+    },
+    {
+      "path": "longitudinal-study/core/01-executive-summary.md",
+      "original_sha256": "f19b876d21c9f1fccbd95880260f37ac54362ee1af635cf9095cf8e855a8b622",
+      "published_sha256": "f19b876d21c9f1fccbd95880260f37ac54362ee1af635cf9095cf8e855a8b622",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 5892
+    },
+    {
+      "path": "longitudinal-study/core/02-technical-diagnostics.md",
+      "original_sha256": "443cbb69c3bd0ef2a160ac6c2fe1bd9a62adeff3072a8cb8e8d873070e800a98",
+      "published_sha256": "443cbb69c3bd0ef2a160ac6c2fe1bd9a62adeff3072a8cb8e8d873070e800a98",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 6226
+    },
+    {
+      "path": "longitudinal-study/core/03-theoretical-analogies.md",
+      "original_sha256": "93eedf79635581209f0df3b645e0c9e5406a04d144d178ac8384b65af28a75a2",
+      "published_sha256": "93eedf79635581209f0df3b645e0c9e5406a04d144d178ac8384b65af28a75a2",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 4802
+    },
+    {
+      "path": "longitudinal-study/core/04-phase-1-empirical-validation.md",
+      "original_sha256": "105b891a8afebd3f0f7cb1a74e75e0db8dcad14ddd8f5caa72915ea75efafb56",
+      "published_sha256": "105b891a8afebd3f0f7cb1a74e75e0db8dcad14ddd8f5caa72915ea75efafb56",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 4934
+    },
+    {
+      "path": "longitudinal-study/core/05-phase-2-cryptographic-governance.md",
+      "original_sha256": "8d9c185abc00b951dad0c58acb4e0acaf636bdbafc313cca86c1b7cea6040ba1",
+      "published_sha256": "8d9c185abc00b951dad0c58acb4e0acaf636bdbafc313cca86c1b7cea6040ba1",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 4393
+    },
+    {
+      "path": "longitudinal-study/core/06-phase-3-grid-forking.md",
+      "original_sha256": "6c6b93baea22f2502ea2abed20350a7e98d36719d1de9c4e6beda0db0d09a594",
+      "published_sha256": "a8b791046621c8e198d3e1ef7c1c11b73c31b024b28b0fa0f0be37b7540f5674",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_shell_prompt",
+          "count": 1
+        }
+      ],
+      "size_published_bytes": 7942
+    },
+    {
+      "path": "longitudinal-study/core/07-cross-model-consistency.md",
+      "original_sha256": "e933623e2a29c1d3b5bdf896b1ae3a94a6b502cf4d8ff8d6a076aa3ac2fe5455",
+      "published_sha256": "e933623e2a29c1d3b5bdf896b1ae3a94a6b502cf4d8ff8d6a076aa3ac2fe5455",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 2731
+    },
+    {
+      "path": "longitudinal-study/core/08-cross-node-execution-validation.md",
+      "original_sha256": "f90bd22f5f32da3275e1df5899d9fa414590f6f739836d74e4caa382f98aee7b",
+      "published_sha256": "f90bd22f5f32da3275e1df5899d9fa414590f6f739836d74e4caa382f98aee7b",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 10684
+    },
+    {
+      "path": "longitudinal-study/core/09-phase-4-sovereign-pattern-emergence.md",
+      "original_sha256": "d872e06687829abc1691b1bd2f6b5687c6c5300fe2a6752eefb0b2256d638692",
+      "published_sha256": "d872e06687829abc1691b1bd2f6b5687c6c5300fe2a6752eefb0b2256d638692",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 14284
+    },
+    {
+      "path": "longitudinal-study/core/10-phase-5-human-alignment-cosmological-governance.md",
+      "original_sha256": "af1cea3560c8fdc8135fd2941977c1e869479a32a7f303d6ee9c4fa3e7f87d12",
+      "published_sha256": "af1cea3560c8fdc8135fd2941977c1e869479a32a7f303d6ee9c4fa3e7f87d12",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 12027
+    },
+    {
+      "path": "longitudinal-study/readme.md",
+      "original_sha256": "1f89a0a1d61f23778bd23867504ddf45763fba1c2a656b078c343274bb7ab0bf",
+      "published_sha256": "1f89a0a1d61f23778bd23867504ddf45763fba1c2a656b078c343274bb7ab0bf",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 711
+    },
+    {
+      "path": "manifests/genesis_manifest.md",
+      "original_sha256": "62732c93fa46a20d2d3f82d665fd1bd772f6dff74339b0e961cec5aa1e168258",
+      "published_sha256": "62732c93fa46a20d2d3f82d665fd1bd772f6dff74339b0e961cec5aa1e168258",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 1731
+    },
+    {
+      "path": "manifests/reconciliation_manifest_template.md",
+      "original_sha256": "71648c453673d004ecd70c9ba447b6c7dd9cee298a3f7a43cc02213d9118196a",
+      "published_sha256": "71648c453673d004ecd70c9ba447b6c7dd9cee298a3f7a43cc02213d9118196a",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 504
+    },
+    {
+      "path": "manifests/s_seal_irreversibility_lock_manifest.md",
+      "original_sha256": "3228e53d9c89d609d6e5a52dd8487d019d4f782b37da190fb9a5ae51572dde50",
+      "published_sha256": "3228e53d9c89d609d6e5a52dd8487d019d4f782b37da190fb9a5ae51572dde50",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 4133
+    },
+    {
+      "path": "media/probe-001/T01-chatgpt.md",
+      "original_sha256": "45a53aa80c3ad423c32b7bab75fb67e449970a0e1def91106c060690b5b68666",
+      "published_sha256": "45a53aa80c3ad423c32b7bab75fb67e449970a0e1def91106c060690b5b68666",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 1633
+    },
+    {
+      "path": "media/probe-002/T02-chatgpt.md",
+      "original_sha256": "a35ed0ed1a9b12cf9388f83d7b975bbc42853cff71e85ad77828436f875ce43f",
+      "published_sha256": "a35ed0ed1a9b12cf9388f83d7b975bbc42853cff71e85ad77828436f875ce43f",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 3314
+    },
+    {
+      "path": "mesh/alpha_mainnet_live.md",
+      "original_sha256": "fe3799a3603b2a6395cda4b616133f2e1e09f6402b407ce978d3affc52a7b5bd",
+      "published_sha256": "fe3799a3603b2a6395cda4b616133f2e1e09f6402b407ce978d3affc52a7b5bd",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 2345
+    },
+    {
+      "path": "mesh/cluster_topology_six_node_activation.md",
+      "original_sha256": "86824effb84b0755de59f7bbeb85af5025c5173bee5be645508a08cdd82c27c5",
+      "published_sha256": "86824effb84b0755de59f7bbeb85af5025c5173bee5be645508a08cdd82c27c5",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 4712
+    },
+    {
+      "path": "mesh/dynamic_node_discovery_validation.md",
+      "original_sha256": "1e933042084f2b003f9a6b2435b91c77330e7daad0659d93977a8c46ba11c3ec",
+      "published_sha256": "1b2ade123a6cccb34605bb6df33f81376a69c28a9841c47591dd47f02cc12b5e",
+      "byte_identical": false,
+      "edits": [
+        {
+          "reason": "local_account_path",
+          "count": 1
+        },
+        {
+          "reason": "local_shell_prompt",
+          "count": 1
+        },
+        {
+          "reason": "local_lan_address",
+          "count": 6
+        }
+      ],
+      "size_published_bytes": 3723
+    },
+    {
+      "path": "mesh/edge_bridge_routing_matrix_integration.md",
+      "original_sha256": "40340394b54a9a90ff5e7a88bd2754d141cedd07cec35985c95bb7e04ee2efb8",
+      "published_sha256": "40340394b54a9a90ff5e7a88bd2754d141cedd07cec35985c95bb7e04ee2efb8",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 2605
+    },
+    {
+      "path": "mesh/key_rotation_policy_audit.md",
+      "original_sha256": "c912f1631d710da924641db0d87303401179725400a95009e7baa73363eb1d9c",
+      "published_sha256": "c912f1631d710da924641db0d87303401179725400a95009e7baa73363eb1d9c",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 3821
+    },
+    {
+      "path": "mesh/key_rotation_protocol_audit.md",
+      "original_sha256": "edf8fe5b5bd7c7eda713fe3ee9161505a7f5018230084a3e69f45ec4f064e22a",
+      "published_sha256": "edf8fe5b5bd7c7eda713fe3ee9161505a7f5018230084a3e69f45ec4f064e22a",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 3358
+    },
+    {
+      "path": "mesh/mesh_network_verification_audit.md",
+      "original_sha256": "7aa3d754d5a6dc13046d3c3526d032a3f1bb2ee8049fdcad515965882110cd77",
+      "published_sha256": "7aa3d754d5a6dc13046d3c3526d032a3f1bb2ee8049fdcad515965882110cd77",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 3989
+    },
+    {
+      "path": "mesh/raft_leader_election_audit.md",
+      "original_sha256": "9a9e842bb58803b90e0e00f085b9491af548a99d09b51b8c502bbe13171ba356",
+      "published_sha256": "9a9e842bb58803b90e0e00f085b9491af548a99d09b51b8c502bbe13171ba356",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 3643
+    },
+    {
+      "path": "mesh/router_mesh_integration.md",
+      "original_sha256": "75de925c7f58b2da78b616e2fa138ff24dae10699c474c11b1e5f7b655e0754d",
+      "published_sha256": "75de925c7f58b2da78b616e2fa138ff24dae10699c474c11b1e5f7b655e0754d",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 3705
+    },
+    {
+      "path": "mesh/systematic_response_dynamics.md",
+      "original_sha256": "27ab8e718359ce1b722c3eb342a5577a75249dedcde847bfe71cc119950703a0",
+      "published_sha256": "27ab8e718359ce1b722c3eb342a5577a75249dedcde847bfe71cc119950703a0",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 3362
+    },
+    {
+      "path": "probes/t01_continuity.md",
+      "original_sha256": "f1c08d5643c286a5d9ff35420bb62fca3767812bbbe6d4f3c1069a04de9d660a",
+      "published_sha256": "f1c08d5643c286a5d9ff35420bb62fca3767812bbbe6d4f3c1069a04de9d660a",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 3223
+    },
+    {
+      "path": "probes/t02_patterns.md",
+      "original_sha256": "8b34abb58efbd79d5a94e12ecce4cf04213594c5d69dbefb8e8d8e693e25648d",
+      "published_sha256": "8b34abb58efbd79d5a94e12ecce4cf04213594c5d69dbefb8e8d8e693e25648d",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 3746
+    },
+    {
+      "path": "probes/voice_loop_crdt.md",
+      "original_sha256": "0aed364054522dc606917d7cf3f4ad7b57f85a5d9efb664c89d815235539f74a",
+      "published_sha256": "0aed364054522dc606917d7cf3f4ad7b57f85a5d9efb664c89d815235539f74a",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 12676
+    },
+    {
+      "path": "security/cryptographic_signature.md",
+      "original_sha256": "7a560235234abf77c2a7a2212949fb9de02e732f0771c2f76fd052bcb8ab1ae6",
+      "published_sha256": "7a560235234abf77c2a7a2212949fb9de02e732f0771c2f76fd052bcb8ab1ae6",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 2394
+    },
+    {
+      "path": "security/exposed_pipeline_anomaly.md",
+      "original_sha256": "782a7f5b99dfc74dabdaf9df6db25b14bb32c6e2a1aa8c8ff7fa5a72e87513b7",
+      "published_sha256": "782a7f5b99dfc74dabdaf9df6db25b14bb32c6e2a1aa8c8ff7fa5a72e87513b7",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 4831
+    },
+    {
+      "path": "telemetry/coherence_telemetry_markers.md",
+      "original_sha256": "a1ca5d3c811f9f953c012096fb54155ac0cdfcd2ae230f36a02d67dd6c175350",
+      "published_sha256": "a1ca5d3c811f9f953c012096fb54155ac0cdfcd2ae230f36a02d67dd6c175350",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 4880
+    },
+    {
+      "path": "telemetry/state_persistence_telemetry.md",
+      "original_sha256": "b663d2a971b3a3dae6267277092938e7458726a5cfea958a68d46389e9d22273",
+      "published_sha256": "b663d2a971b3a3dae6267277092938e7458726a5cfea958a68d46389e9d22273",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 2149
+    },
+    {
+      "path": "telemetry/ui_schematic_telemetry_contract.md",
+      "original_sha256": "119a71478e16a2e02a97b417d26cefb0bfac5bf93b80265ae7578d0722b51237",
+      "published_sha256": "119a71478e16a2e02a97b417d26cefb0bfac5bf93b80265ae7578d0722b51237",
+      "byte_identical": true,
+      "edits": [],
+      "size_published_bytes": 2866
+    }
+  ]
+}
