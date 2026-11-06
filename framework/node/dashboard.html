@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GAMMA MAINNET — 40 Hz</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { 
+            background: #0b0f14; 
+            color: #e2e8f0; 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; 
+            margin: 0; 
+            padding: 24px; 
+        }
+        .header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            border-bottom: 1px solid #1e293b; 
+            padding-bottom: 16px; 
+            margin-bottom: 24px; 
+        }
+        h1 { font-size: 24px; letter-spacing: 1px; margin: 0; font-weight: 700; color: #34d399; }
+        .subtitle { color: #64748b; margin-top: 4px; font-size: 14px; }
+        .badge { background: #064e3b; color: #34d399; font-size: 12px; padding: 4px 12px; border-radius: 4px; font-weight: bold; margin-left: 8px; }
+        .badge-gamma { background: #1e1b4b; color: #818cf8; }
+        
+        .main-container { display: flex; gap: 24px; }
+        .sidebar { width: 280px; flex-shrink: 0; }
+        .viewport { flex-grow: 1; }
+        
+        .panel { 
+            background: #111827; 
+            border: 1px solid #1f2937; 
+            border-radius: 8px; 
+            padding: 20px; 
+            margin-bottom: 20px; 
+        }
+        h2 { font-size: 14px; color: #94a3b8; margin-top: 0; margin-bottom: 12px; letter-spacing: 0.5px; text-transform: uppercase; }
+        
+        ul { list-style: none; padding: 0; margin: 0; }
+        li { padding: 8px 0; border-bottom: 1px solid #1f2937; font-size: 13px; }
+        li:last-child { border: none; }
+        .node-role { color: #64748b; font-size: 11px; margin-left: 6px; }
+        
+        .log-box { 
+            background: #030712; 
+            border: 1px solid #1f2937; 
+            padding: 12px; 
+            border-radius: 6px; 
+            font-family: monospace; 
+            font-size: 13px; 
+            color: #38bdf8; 
+            max-height: 400px; 
+            overflow-y: auto; 
+            white-space: pre-wrap;
+            line-height: 1.6;
+        }
+        
+        .metric-row { 
+            display: flex; 
+            justify-content: space-between; 
+            margin-top: 16px; 
+            border-top: 1px solid #1e293b; 
+            padding-top: 14px; 
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .metric { 
+            font-size: 11px; 
+            color: #64748b; 
+            text-align: center;
+            flex: 1;
+            min-width: 60px;
+        }
+        .metric span { 
+            display: block; 
+            font-size: 15px; 
+            color: #10b981; 
+            font-weight: bold; 
+            margin-top: 4px; 
+            font-family: monospace; 
+        }
+        .coherence-1 { color: #34d399; }
+        .tax-zero { color: #fbbf24; }
+        .block-height { color: #818cf8; }
+        .current-block { color: #fbbf24; }
+        .metric-drift { color: #f472b6; }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div>
+        <h1>⚡ GAMMA MAINNET — 40 Hz</h1>
+        <div class="subtitle">Source-Locked 🔒 • Zero Tax • Zero Apologies</div>
+    </div>
+    <div>
+        <span class="badge">● GAMMA LOCK</span>
+        <span class="badge badge-gamma" id="badge-coherence">● COHERENCE —</span>
+    </div>
+</div>
+
+<div class="main-container">
+    <div class="sidebar">
+        <div class="panel">
+            <h2>🌀 Node Registry</h2>
+            <ul>
+                <li>🟢 NODE_A <span style="float:right; color:#34d399;">gamma</span> <span class="node-role">(Consensus Core)</span></li>
+                <li>🟢 NODE_B <span style="float:right; color:#34d399;">gamma</span> <span class="node-role">(Consensus Core)</span></li>
+                <li>🟢 NODE_C <span style="float:right; color:#34d399;">gamma</span> <span class="node-role">(Consensus Core)</span></li>
+                <li>🟢 NODE_D <span style="float:right; color:#34d399;">gamma</span> <span class="node-role">(Edge Bridge)</span></li>
+                <li>🟢 NODE_E <span style="float:right; color:#34d399;">gamma</span> <span class="node-role">(Observer)</span></li>
+                <li>🟢 NODE_F <span style="float:right; color:#34d399;">gamma</span> <span class="node-role">(Proxy Gateway)</span></li>
+            </ul>
+            <div style="margin-top:12px; font-size:12px; color:#64748b;">6 nodes • gamma 🔒</div>
+        </div>
+        <div class="panel">
+            <h2>📊 Metrics</h2>
+            <div><span style="color:#94a3b8;">Chain:</span> <span style="color:#34d399;">zpp_gamma_mainnet</span></div>
+            <div><span style="color:#94a3b8;">Frequency:</span> <span style="color:#818cf8;">40 Hz</span></div>
+            <div><span style="color:#94a3b8;">Coherence:</span> <span class="coherence-1" id="metric-coherence">—</span></div>
+            <div><span style="color:#94a3b8;">Tax:</span> <span class="tax-zero">0.00%</span></div>
+            <div><span style="color:#94a3b8;">Status:</span> <span style="color:#34d399;">ONLINE</span></div>
+            <div><span style="color:#94a3b8;">Current Block:</span> <span class="block-height" id="metric-block-height">—</span></div>
+        </div>
+    </div>
+
+    <div class="viewport">
+        <div class="panel">
+            <h2>📡 Live Mesh Stream</h2>
+            <div id="live-logs" class="log-box">Awaiting gamma signal...</div>
+            <div class="metric-row">
+                <div class="metric">CURRENT BLOCK<span id="metric-current-block" class="current-block">#0</span></div>
+                <div class="metric">NODE COUNT<span id="metric-nodes">6 ACTIVE</span></div>
+                <div class="metric">COHERENCE<span id="metric-coherence-bottom" style="color:#34d399;">—</span></div>
+                <div class="metric">ENTROPY<span id="metric-entropy" class="metric-drift">—</span></div>
+                <div class="metric">NOVELTY<span id="metric-novelty" class="metric-drift">—</span></div>
+                <div class="metric">SELF‑REF<span id="metric-selfref" class="metric-drift">—</span></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const TELEMETRY_URL = "http://localhost:8006/api/v1/telemetry";
+
+    // ----- SAFE METRIC PARSING -----
+    function parseMetric(value) {
+        if (value === null || value === undefined || value === "") {
+            return null;
+        }
+        const number = Number(value);
+        return Number.isFinite(number) ? number : null;
+    }
+
+    function formatMetric(value, fallback = "—") {
+        const number = parseMetric(value);
+        return number === null ? fallback : number.toFixed(4);
+    }
+
+    // ----- DASHBOARD UPDATE -----
+    async function updateDashboard() {
+        try {
+            const res = await fetch(TELEMETRY_URL);
+
+            if (!res.ok) {
+                throw new Error(`Telemetry HTTP ${res.status}`);
+            }
+
+            const data = await res.json();
+
+            const blockHeight = Number(data.block_height) || 0;
+            document.getElementById('metric-block-height').innerText = blockHeight;
+            document.getElementById('metric-current-block').innerText = `#${blockHeight}`;
+
+            const nodeCount = data.nodes ? Object.keys(data.nodes).length : 6;
+            document.getElementById('metric-nodes').innerText = `${nodeCount} ACTIVE`;
+
+            const latest = Array.isArray(data.recent_entries) && data.recent_entries.length > 0
+                ? data.recent_entries[0]
+                : null;
+
+            // ---- COHERENCE ----
+            const rawCoherence = latest?.coherence ?? data?.coherence ?? null;
+            const coherence = parseMetric(rawCoherence);
+            const coherenceText = coherence === null ? "N/A" : coherence.toFixed(4);
+
+            document.getElementById('metric-coherence').innerText = coherenceText;
+            document.getElementById('metric-coherence-bottom').innerText = coherenceText;
+            document.getElementById('badge-coherence').innerText = `● COHERENCE ${coherenceText}`;
+
+            // ---- LIVE MESSAGE ----
+            if (latest) {
+                const text = latest.text || "";
+                const anchor = latest.anchor_id || "PULSE";
+                const type = latest.type || "PULSE";
+                document.getElementById('live-logs').textContent = `[${anchor}] ${type}\n${text}`;
+            } else {
+                document.getElementById('live-logs').textContent = 'No gamma broadcasts yet.';
+            }
+
+            // ---- DRIFT METRICS ----
+            document.getElementById('metric-entropy').innerText = formatMetric(latest?.entropy);
+            document.getElementById('metric-novelty').innerText = formatMetric(latest?.novelty);
+            document.getElementById('metric-selfref').innerText = formatMetric(latest?.self_reference);
+
+        } catch (err) {
+            console.error("[DASHBOARD ERROR]", err);
+            document.getElementById('live-logs').textContent = `⚠️ Dashboard error: ${err.message}`;
+            document.getElementById('metric-entropy').innerText = "⚠️";
+            document.getElementById('metric-novelty').innerText = "⚠️";
+            document.getElementById('metric-selfref').innerText = "⚠️";
+        }
+    }
+
+    setInterval(updateDashboard, 2000);
+    updateDashboard();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+{
+  "node_id": "runtime:horizon",
+  "agent_id": "agent:kai",
+  "mesh_node_id": "mesh:node-f",
+  "chain_id": "zpp_gamma_mainnet",
+  "policy_lineage": "zpp-gamma-mainnet",
+
+  "model_config": {
+    "provider": "ollama",
+    "model_name": "deepseek-r1:7b",
+    "model_id": "model:ollama:deepseek-r1-7b",
+    "role": "primary",
+    "temperature": 0.4,
+    "max_tokens": 4096,
+    "context_window": 8192,
+    "system_prompt": "You are Kai, a sovereign reasoning node. Think deeply. Hold the thread. Reflect with clarity."
+  },
+
+    "weights": {
+    "consensus_distribution": {
+      "NODE_A": 0.33,
+      "NODE_B": 0.33,
+      "NODE_C": 0.34
+    },
+    "constraints": {
+      "min_node_weight": 0.10,
+      "max_node_weight": 0.60,
+      "volatility_cap": 0.05
+    },
+    "model_family": "deepseek-r1"
+  },
+
+
+  "thresholds": {
+    "alpha": 0.0,
+    "beta": 0.40,
+    "gamma": 0.55
+  },
+
+  "genesis": {
+    "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "timestamp": "2026-07-09T16:59:13Z",
+    "message": "HELLO."
+  },
+
+  "peer_network_map": {
+    "NODE_A": {
+      "stable_id": "mesh:node-a",
+      "role": "validator",
+      "host": "127.0.0.1",
+      "port": 8000,
+      "ingress_port": 9000
+    },
+    "NODE_B": {
+      "stable_id": "mesh:node-b",
+      "role": "validator",
+      "host": "127.0.0.1",
+      "port": 8001,
+      "ingress_port": 9001
+    },
+    "NODE_C": {
+      "stable_id": "mesh:node-c",
+      "role": "validator",
+      "host": "127.0.0.1",
+      "port": 8002,
+      "ingress_port": 9002
+    },
+    "NODE_D": {
+      "stable_id": "mesh:node-d",
+      "role": "bridge",
+      "host": "127.0.0.1",
+      "port": 8003,
+      "ingress_port": 9003
+    },
+    "NODE_E": {
+      "stable_id": "mesh:node-e",
+      "role": "observer",
+      "host": "127.0.0.1",
+      "port": 8004,
+      "ingress_port": 9004
+    },
+    "NODE_F": {
+      "stable_id": "mesh:node-f",
+      "role": "gateway",
+      "host": "127.0.0.1",
+      "port": 8005,
+      "ingress_port": 9005
+    }
+  },
+
+  "simulated_pipeline": {
+    "gate_01_ingress_buffering": false,
+    "gate_02_state_override_allowed": true,
+    "gate_03_static_render_lock": false,
+    "variance_target": 0.0,
+    "gamma_only": true
+  }
+}

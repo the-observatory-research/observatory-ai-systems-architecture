@@ -1,0 +1,12 @@
+# Inferred from source imports, not recovered from the original environment.
+# Versions intentionally not pinned: no lockfile or cross-machine environment was supplied.
+# Core mesh
+websockets
+aiohttp
+cryptography
+ddgs
+
+# Optional ancillary scripts
+fastapi
+pydantic
+numpy

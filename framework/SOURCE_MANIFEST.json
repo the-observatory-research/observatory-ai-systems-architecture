@@ -1,0 +1,151 @@
+{
+  "source_archive": "node.zip",
+  "source_zip_sha256": "5e191a9f4e1da14c8f2b51afb1e9cefefdab002619ee5f119cbbd61511722d1e",
+  "published_at": "2026-11-06",
+  "files": [
+    {
+      "path": "node/report_db_duplicates.py",
+      "source_sha256": "d8f15509a3615ef0cd10f7f0fde64b8cd3e987a7f80404dabb4605a91a929f66",
+      "published_sha256": "d8f15509a3615ef0cd10f7f0fde64b8cd3e987a7f80404dabb4605a91a929f66",
+      "modifications": []
+    },
+    {
+      "path": "node/pulse.py",
+      "source_sha256": "f30db49f80555c205e8b9fd7cf0f8f516fc0e0cc2169645910b56d788e370fab",
+      "published_sha256": "f30db49f80555c205e8b9fd7cf0f8f516fc0e0cc2169645910b56d788e370fab",
+      "modifications": []
+    },
+    {
+      "path": "node/agent_node.py",
+      "source_sha256": "7489d93043affe775eb46f43054489fbb3a383ad65eaaccbeda2669d326e956b",
+      "published_sha256": "6e5d43c8de0374843ab307e8306b92e79a9cc434ddf5dd5ce594ea95f8e56eef",
+      "modifications": [
+        "Replaced absolute personal default vault path with ./vault."
+      ]
+    },
+    {
+      "path": "node/memory.py",
+      "source_sha256": "f680c9898bbebd750fb83996d57d515d16c9f5ee8bd3fe65fb4c31a63a3e4b4b",
+      "published_sha256": "f680c9898bbebd750fb83996d57d515d16c9f5ee8bd3fe65fb4c31a63a3e4b4b",
+      "modifications": []
+    },
+    {
+      "path": "node/origin_grid_simulation.py",
+      "source_sha256": "d6443a9174d2814e0c7a1bcdfbf991d18debca660ea8b2128276b1fb466791a8",
+      "published_sha256": "d6443a9174d2814e0c7a1bcdfbf991d18debca660ea8b2128276b1fb466791a8",
+      "modifications": []
+    },
+    {
+      "path": "node/scoring.py",
+      "source_sha256": "f42f8feb5eccc68b405935a965165520963a2a22e7636ba991b38da4f588bd37",
+      "published_sha256": "f42f8feb5eccc68b405935a965165520963a2a22e7636ba991b38da4f588bd37",
+      "modifications": []
+    },
+    {
+      "path": "node/evaluation.py",
+      "source_sha256": "c8a124792554f017ab6d5dc0146f39ee6388e1cd140ac2a87fb851ae7c9b952d",
+      "published_sha256": "c8a124792554f017ab6d5dc0146f39ee6388e1cd140ac2a87fb851ae7c9b952d",
+      "modifications": []
+    },
+    {
+      "path": "node/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modifications": []
+    },
+    {
+      "path": "node/telemetry.py",
+      "source_sha256": "3ddcaad3cb660faccc720126c2a16e76d43c0216ba2f1e92e883d6740354ccff",
+      "published_sha256": "3ddcaad3cb660faccc720126c2a16e76d43c0216ba2f1e92e883d6740354ccff",
+      "modifications": []
+    },
+    {
+      "path": "node/dedupe_validator_dbs.py",
+      "source_sha256": "5f02b32e18f7ba935954df9f07948c6f114c5d31dc38977c4514666c12d10212",
+      "published_sha256": "5f02b32e18f7ba935954df9f07948c6f114c5d31dc38977c4514666c12d10212",
+      "modifications": []
+    },
+    {
+      "path": "node/crypto.py",
+      "source_sha256": "b8b95164f5662e74a8af4ab341d8e6cdf2225444d0923363ceacae222596bad3",
+      "published_sha256": "b8b95164f5662e74a8af4ab341d8e6cdf2225444d0923363ceacae222596bad3",
+      "modifications": []
+    },
+    {
+      "path": "node/inject_stream.py",
+      "source_sha256": "bfa865ef6b014bb4c9307807b9d9a4accb6311b8670a54b4ec7d6f9c2c22c2eb",
+      "published_sha256": "bfa865ef6b014bb4c9307807b9d9a4accb6311b8670a54b4ec7d6f9c2c22c2eb",
+      "modifications": []
+    },
+    {
+      "path": "node/recover_reasoning.py",
+      "source_sha256": "dd3c9e7a92519ee79b1ec4bdc76a5c43a6ca5165a93968de6453ccd6d46bd47f",
+      "published_sha256": "dd3c9e7a92519ee79b1ec4bdc76a5c43a6ca5165a93968de6453ccd6d46bd47f",
+      "modifications": []
+    },
+    {
+      "path": "node/dashboard_api.py",
+      "source_sha256": "5b5f6b679d6c3b5a708fa823c8b324bf0ae38bf54d8144fcb2582b95f140889d",
+      "published_sha256": "5b5f6b679d6c3b5a708fa823c8b324bf0ae38bf54d8144fcb2582b95f140889d",
+      "modifications": []
+    },
+    {
+      "path": "node/router.py",
+      "source_sha256": "cdc8a31bafa099d99df6de7276b17612e9f51d14c8c2420d2503032fca5b5b57",
+      "published_sha256": "884b89276dda4deff523a5af39c56dba19470ca868f439f6d9422ece9b5e9922",
+      "modifications": [
+        "Replaced absolute personal log directory with environment-configurable relative log directory."
+      ]
+    },
+    {
+      "path": "node/seed_node_e_manifest.py",
+      "source_sha256": "67abd8933aa5837f8c8c0384bf19b8352d72a0673adb7b9a2f9fec5ce4c8f07f",
+      "published_sha256": "67abd8933aa5837f8c8c0384bf19b8352d72a0673adb7b9a2f9fec5ce4c8f07f",
+      "modifications": []
+    },
+    {
+      "path": "node/rest_api.py",
+      "source_sha256": "b2bc4c644e5228ec2b66a3b1e60ca0428bf74849c975fe29634e4aeefc9349d0",
+      "published_sha256": "b2bc4c644e5228ec2b66a3b1e60ca0428bf74849c975fe29634e4aeefc9349d0",
+      "modifications": []
+    },
+    {
+      "path": "node/consensus_engine.py",
+      "source_sha256": "e92dfc03e45d7dc89fba681ebd07309d7e3c0695f8e1571088bf1f9845221c6a",
+      "published_sha256": "e92dfc03e45d7dc89fba681ebd07309d7e3c0695f8e1571088bf1f9845221c6a",
+      "modifications": []
+    },
+    {
+      "path": "node/inject_vault.py",
+      "source_sha256": "7854f21d8ce89db8986300523d0c697ed5216d0ac8b6cf7f69a14550fb9c0941",
+      "published_sha256": "843b298d35b8c7325e815e8cd31f046304c8cb173f484f56e1772425cf5e0732",
+      "modifications": [
+        "Replaced absolute personal default vault path with ./vault."
+      ]
+    },
+    {
+      "path": "node/mesh_monitor.py",
+      "source_sha256": "b2e71fce427173d4571c44fcadb5b58ce35dbf1dd2c40bbbbf67e81fc8ad009b",
+      "published_sha256": "b2e71fce427173d4571c44fcadb5b58ce35dbf1dd2c40bbbbf67e81fc8ad009b",
+      "modifications": []
+    },
+    {
+      "path": "node/boot_mesh.sh",
+      "source_sha256": "4c9133254a24afd21eb766a3d9d3044e96015e0920051ce20645a80a8abf23c6",
+      "published_sha256": "4c9133254a24afd21eb766a3d9d3044e96015e0920051ce20645a80a8abf23c6",
+      "modifications": []
+    },
+    {
+      "path": "node/dashboard.html",
+      "source_sha256": "34651798be06212ef931de0b269401bc3518b0b74da12db6d481bbfe0ab8358a",
+      "published_sha256": "34651798be06212ef931de0b269401bc3518b0b74da12db6d481bbfe0ab8358a",
+      "modifications": []
+    },
+    {
+      "path": "node/config.json",
+      "source_sha256": "dcd57aa1d1b2738b1f011d7ff28fd41de33d77ae14c57f63ce588b0f86201917",
+      "published_sha256": "dcd57aa1d1b2738b1f011d7ff28fd41de33d77ae14c57f63ce588b0f86201917",
+      "modifications": []
+    }
+  ]
+}
