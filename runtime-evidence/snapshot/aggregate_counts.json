@@ -1,0 +1,61 @@
+{
+  "content_manifest": {
+    "entries": 182,
+    "value_type_counts": {
+      "dict": 182
+    }
+  },
+  "interpretive_limits": [
+    "SQL table row counts are not independent reasoning-stream counts.",
+    "Historical document claims are not validated by these aggregates alone.",
+    "Log entry counts do not establish successful processing or causal behavior.",
+    "No restart, multi-node execution, cryptographic trust, or live changed-only ingestion test was performed."
+  ],
+  "ledger_counts": {
+    "bridge_ledger": {
+      "entries": 608,
+      "expected_type_entries": 608,
+      "unique_source_paths": 182
+    },
+    "discovery_ledger": {
+      "entries": 608,
+      "expected_type_entries": 608,
+      "unique_source_paths": 182
+    }
+  },
+  "method": "read-only local inspection of fixed archive members",
+  "node_database_counts": {
+    "NODE_A": {
+      "conversation_history": 204,
+      "lattice_state_ledger": 0,
+      "pulse_history": 12029
+    },
+    "NODE_B": {
+      "conversation_history": 204,
+      "lattice_state_ledger": 0,
+      "pulse_history": 12030
+    },
+    "NODE_C": {
+      "conversation_history": 204,
+      "lattice_state_ledger": 0,
+      "pulse_history": 12030
+    },
+    "NODE_D": {
+      "conversation_history": 364,
+      "lattice_state_ledger": 0,
+      "pulse_history": 12030
+    },
+    "NODE_E": {
+      "conversation_history": 364,
+      "lattice_state_ledger": 0,
+      "pulse_history": 12030
+    },
+    "NODE_F": {
+      "conversation_history": 192,
+      "lattice_state_ledger": 0,
+      "pulse_history": 12030
+    }
+  },
+  "record_type": "aggregate_snapshot_inspection",
+  "scope": "preserved_local_snapshot; not a live runtime test"
+}
